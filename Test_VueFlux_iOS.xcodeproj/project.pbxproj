@@ -7,22 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C088D762A14B58800B68B28 /* VueFluxAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C088D752A14B58800B68B28 /* VueFluxAdapter.swift */; };
-		1C088D7C2A14C65300B68B28 /* CountUpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C088D7B2A14C65200B68B28 /* CountUpDataModel.swift */; };
-		1C338FD22A19EDE500251143 /* ScopedDisposable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C338FD12A19EDE500251143 /* ScopedDisposable+Utility.swift */; };
-		1C338FD72A19EEF200251143 /* ScopedDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C338FD62A19EEF200251143 /* ScopedDisposable.swift */; };
-		1C338FD92A1A040900251143 /* GetCountUpNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C338FD82A1A040900251143 /* GetCountUpNumber.swift */; };
-		1C338FDD2A1A0A1200251143 /* Admin+Protobuf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C338FDC2A1A0A1200251143 /* Admin+Protobuf.swift */; };
-		1C338FDF2A1A0F4D00251143 /* CountUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C338FDE2A1A0F4D00251143 /* CountUpService.swift */; };
-		1C338FE12A1A169E00251143 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C338FE02A1A169E00251143 /* Session.swift */; };
-		1C338FE62A1A29C800251143 /* CountUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C338FE52A1A29C800251143 /* CountUpResponse.swift */; };
-		1C41CE242A175554001C209E /* VueFluxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41CE232A175554001C209E /* VueFluxState.swift */; };
-		1C41CE272A17653B001C209E /* PropertyProtocol+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41CE262A17653B001C209E /* PropertyProtocol+Utility.swift */; };
-		1C41CE292A177105001C209E /* Refreshable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41CE282A177105001C209E /* Refreshable+Utility.swift */; };
-		1C41CE2B2A177131001C209E /* Optional+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41CE2A2A177131001C209E /* Optional+Utility.swift */; };
-		1C41CE2D2A17718F001C209E /* Store+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41CE2C2A17718F001C209E /* Store+Utility.swift */; };
-		1C41CE2F2A1771BF001C209E /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41CE2E2A1771BF001C209E /* Renderable.swift */; };
-		1C41CE312A1774A5001C209E /* Reactive+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41CE302A1774A5001C209E /* Reactive+Utility.swift */; };
 		1C4CBDB62A1B2C900044B6CA /* ReactiveMapKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDAF2A1B2C8F0044B6CA /* ReactiveMapKit.xcframework */; };
 		1C4CBDB82A1B2C900044B6CA /* Carbon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDB02A1B2C8F0044B6CA /* Carbon.xcframework */; };
 		1C4CBDBA2A1B2C900044B6CA /* DifferenceKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDB12A1B2C8F0044B6CA /* DifferenceKit.xcframework */; };
@@ -32,11 +16,7 @@
 		1C4CBDC22A1B2C900044B6CA /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDB52A1B2C900044B6CA /* ReactiveSwift.xcframework */; };
 		1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB742A15C64B004499DE /* FluxViewController.swift */; };
 		1C4CFB772A15C94C004499DE /* VueFluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB762A15C94C004499DE /* VueFluxViewController.swift */; };
-		1C4CFB792A1618A6004499DE /* VueFluxAdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB782A1618A6004499DE /* VueFluxAdapterProtocol.swift */; };
-		1C4CFB7B2A1619E0004499DE /* CountUpRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB7A2A1619E0004499DE /* CountUpRepository.swift */; };
 		1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */; };
-		1C59B9A42A1A6AD80071E3CB /* UIViewcontoroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59B9A32A1A6AD80071E3CB /* UIViewcontoroller.swift */; };
-		1C97E1642A146DDA00DC8550 /* UIControl+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C97E1632A146DDA00DC8550 /* UIControl+Reactive.swift */; };
 		1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335542A138A3600FBAD36 /* AppDelegate.swift */; };
 		1CC335572A138A3600FBAD36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335562A138A3600FBAD36 /* SceneDelegate.swift */; };
 		1CC335592A138A3600FBAD36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335582A138A3600FBAD36 /* ViewController.swift */; };
@@ -65,22 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C088D752A14B58800B68B28 /* VueFluxAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueFluxAdapter.swift; sourceTree = "<group>"; };
-		1C088D7B2A14C65200B68B28 /* CountUpDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpDataModel.swift; sourceTree = "<group>"; };
-		1C338FD12A19EDE500251143 /* ScopedDisposable+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScopedDisposable+Utility.swift"; sourceTree = "<group>"; };
-		1C338FD62A19EEF200251143 /* ScopedDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopedDisposable.swift; sourceTree = "<group>"; };
-		1C338FD82A1A040900251143 /* GetCountUpNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCountUpNumber.swift; sourceTree = "<group>"; };
-		1C338FDC2A1A0A1200251143 /* Admin+Protobuf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Admin+Protobuf.swift"; sourceTree = "<group>"; };
-		1C338FDE2A1A0F4D00251143 /* CountUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpService.swift; sourceTree = "<group>"; };
-		1C338FE02A1A169E00251143 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		1C338FE52A1A29C800251143 /* CountUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpResponse.swift; sourceTree = "<group>"; };
-		1C41CE232A175554001C209E /* VueFluxState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueFluxState.swift; sourceTree = "<group>"; };
-		1C41CE262A17653B001C209E /* PropertyProtocol+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PropertyProtocol+Utility.swift"; sourceTree = "<group>"; };
-		1C41CE282A177105001C209E /* Refreshable+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Refreshable+Utility.swift"; sourceTree = "<group>"; };
-		1C41CE2A2A177131001C209E /* Optional+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Utility.swift"; sourceTree = "<group>"; };
-		1C41CE2C2A17718F001C209E /* Store+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+Utility.swift"; sourceTree = "<group>"; };
-		1C41CE2E2A1771BF001C209E /* Renderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
-		1C41CE302A1774A5001C209E /* Reactive+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reactive+Utility.swift"; sourceTree = "<group>"; };
 		1C4CBDAF2A1B2C8F0044B6CA /* ReactiveMapKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveMapKit.xcframework; path = Carthage/Build/ReactiveMapKit.xcframework; sourceTree = "<group>"; };
 		1C4CBDB02A1B2C8F0044B6CA /* Carbon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Carbon.xcframework; path = Carthage/Build/Carbon.xcframework; sourceTree = "<group>"; };
 		1C4CBDB12A1B2C8F0044B6CA /* DifferenceKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DifferenceKit.xcframework; path = Carthage/Build/DifferenceKit.xcframework; sourceTree = "<group>"; };
@@ -90,11 +54,7 @@
 		1C4CBDB52A1B2C900044B6CA /* ReactiveSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveSwift.xcframework; path = Carthage/Build/ReactiveSwift.xcframework; sourceTree = "<group>"; };
 		1C4CFB742A15C64B004499DE /* FluxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxViewController.swift; sourceTree = "<group>"; };
 		1C4CFB762A15C94C004499DE /* VueFluxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueFluxViewController.swift; sourceTree = "<group>"; };
-		1C4CFB782A1618A6004499DE /* VueFluxAdapterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueFluxAdapterProtocol.swift; sourceTree = "<group>"; };
-		1C4CFB7A2A1619E0004499DE /* CountUpRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpRepository.swift; sourceTree = "<group>"; };
 		1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
-		1C59B9A32A1A6AD80071E3CB /* UIViewcontoroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewcontoroller.swift; sourceTree = "<group>"; };
-		1C97E1632A146DDA00DC8550 /* UIControl+Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Reactive.swift"; sourceTree = "<group>"; };
 		1CC335512A138A3600FBAD36 /* Test_VueFlux_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_VueFlux_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC335542A138A3600FBAD36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CC335562A138A3600FBAD36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,17 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C088D792A14B7C100B68B28 /* Store */ = {
-			isa = PBXGroup;
-			children = (
-				1C088D752A14B58800B68B28 /* VueFluxAdapter.swift */,
-				1C41CE232A175554001C209E /* VueFluxState.swift */,
-				1C4CFB782A1618A6004499DE /* VueFluxAdapterProtocol.swift */,
-				1C338FD12A19EDE500251143 /* ScopedDisposable+Utility.swift */,
-			);
-			path = Store;
-			sourceTree = "<group>";
-		};
 		1C088D7A2A14B7D600B68B28 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,55 +109,6 @@
 				1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		1C338FD52A19EEB700251143 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				1C338FD62A19EEF200251143 /* ScopedDisposable.swift */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		1C338FDA2A1A041300251143 /* Response */ = {
-			isa = PBXGroup;
-			children = (
-				1C338FD82A1A040900251143 /* GetCountUpNumber.swift */,
-				1C338FDE2A1A0F4D00251143 /* CountUpService.swift */,
-				1C338FE52A1A29C800251143 /* CountUpResponse.swift */,
-			);
-			path = Response;
-			sourceTree = "<group>";
-		};
-		1C338FDB2A1A09E800251143 /* Adomin */ = {
-			isa = PBXGroup;
-			children = (
-				1C338FDC2A1A0A1200251143 /* Admin+Protobuf.swift */,
-			);
-			path = Adomin;
-			sourceTree = "<group>";
-		};
-		1C338FE42A1A16B100251143 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				1C338FE02A1A169E00251143 /* Session.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		1C41CE252A17650A001C209E /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				1C97E1632A146DDA00DC8550 /* UIControl+Reactive.swift */,
-				1C41CE262A17653B001C209E /* PropertyProtocol+Utility.swift */,
-				1C41CE2C2A17718F001C209E /* Store+Utility.swift */,
-				1C41CE282A177105001C209E /* Refreshable+Utility.swift */,
-				1C41CE2A2A177131001C209E /* Optional+Utility.swift */,
-				1C41CE2E2A1771BF001C209E /* Renderable.swift */,
-				1C41CE302A1774A5001C209E /* Reactive+Utility.swift */,
-				1C59B9A32A1A6AD80071E3CB /* UIViewcontoroller.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		1C4CBDAE2A1B2C8F0044B6CA /* Frameworks */ = {
@@ -223,15 +123,6 @@
 				1C4CBDB42A1B2C900044B6CA /* VueFluxReactive.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1C85142A2A14C7C6004E5BF3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1C088D7B2A14C65200B68B28 /* CountUpDataModel.swift */,
-				1C4CFB7A2A1619E0004499DE /* CountUpRepository.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		1CC335482A138A3600FBAD36 = {
@@ -262,13 +153,6 @@
 				1CC335562A138A3600FBAD36 /* SceneDelegate.swift */,
 				1CC335582A138A3600FBAD36 /* ViewController.swift */,
 				1C088D7A2A14B7D600B68B28 /* View */,
-				1C088D792A14B7C100B68B28 /* Store */,
-				1C85142A2A14C7C6004E5BF3 /* Model */,
-				1C338FD52A19EEB700251143 /* Utility */,
-				1C338FDA2A1A041300251143 /* Response */,
-				1C338FDB2A1A09E800251143 /* Adomin */,
-				1C41CE252A17650A001C209E /* Extension */,
-				1C338FE42A1A16B100251143 /* Source */,
 				1CC3355D2A138A3700FBAD36 /* Assets.xcassets */,
 				1CC3355F2A138A3700FBAD36 /* LaunchScreen.storyboard */,
 				1CC335622A138A3700FBAD36 /* Info.plist */,
@@ -424,31 +308,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C4CFB772A15C94C004499DE /* VueFluxViewController.swift in Sources */,
-				1C41CE242A175554001C209E /* VueFluxState.swift in Sources */,
-				1C338FDD2A1A0A1200251143 /* Admin+Protobuf.swift in Sources */,
-				1C41CE292A177105001C209E /* Refreshable+Utility.swift in Sources */,
-				1C97E1642A146DDA00DC8550 /* UIControl+Reactive.swift in Sources */,
 				1CC335592A138A3600FBAD36 /* ViewController.swift in Sources */,
-				1C4CFB792A1618A6004499DE /* VueFluxAdapterProtocol.swift in Sources */,
 				1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */,
-				1C41CE272A17653B001C209E /* PropertyProtocol+Utility.swift in Sources */,
-				1C338FD92A1A040900251143 /* GetCountUpNumber.swift in Sources */,
-				1C338FDF2A1A0F4D00251143 /* CountUpService.swift in Sources */,
 				1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */,
-				1C4CFB7B2A1619E0004499DE /* CountUpRepository.swift in Sources */,
-				1C41CE2F2A1771BF001C209E /* Renderable.swift in Sources */,
-				1C338FD22A19EDE500251143 /* ScopedDisposable+Utility.swift in Sources */,
-				1C41CE2D2A17718F001C209E /* Store+Utility.swift in Sources */,
-				1C088D762A14B58800B68B28 /* VueFluxAdapter.swift in Sources */,
-				1C41CE312A1774A5001C209E /* Reactive+Utility.swift in Sources */,
 				1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */,
-				1C338FE62A1A29C800251143 /* CountUpResponse.swift in Sources */,
 				1CC335572A138A3600FBAD36 /* SceneDelegate.swift in Sources */,
-				1C338FE12A1A169E00251143 /* Session.swift in Sources */,
-				1C338FD72A19EEF200251143 /* ScopedDisposable.swift in Sources */,
-				1C088D7C2A14C65300B68B28 /* CountUpDataModel.swift in Sources */,
-				1C59B9A42A1A6AD80071E3CB /* UIViewcontoroller.swift in Sources */,
-				1C41CE2B2A177131001C209E /* Optional+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

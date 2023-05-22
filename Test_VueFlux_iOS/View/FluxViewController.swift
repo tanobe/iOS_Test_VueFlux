@@ -52,11 +52,6 @@ final class FluxViewController: UIViewController {
         view.addSubview(incrementButton)
     }
 
-    func incrementNumber(number: Int) -> SignalProducer<Int, SomeError> {
-        let count = number + 1
-        return SignalProducer<Int, SomeError>(value: 2)
-    }
-
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         NSLayoutConstraint.activate([

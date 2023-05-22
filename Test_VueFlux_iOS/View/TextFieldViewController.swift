@@ -67,11 +67,6 @@ final class TextFieldViewController: UIViewController {
             .observeValues { value in
                 self.incrementButton.isEnabled = value
             }
-        incrementButton.reactive.tap
-            .take(duringLifetimeOf: self)
-            .observeValues { [weak self] in
-                print("タップ可能")
-            }
     }
 
     override func viewWillLayoutSubviews() {
