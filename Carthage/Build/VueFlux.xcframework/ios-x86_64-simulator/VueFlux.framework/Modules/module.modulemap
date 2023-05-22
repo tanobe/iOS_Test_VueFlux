@@ -1,0 +1,4 @@
+framework module VueFlux {
+  header "VueFlux-Swift.h"
+  requires objc
+}

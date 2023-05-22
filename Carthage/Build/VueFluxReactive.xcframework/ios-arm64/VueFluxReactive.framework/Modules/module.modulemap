@@ -1,0 +1,4 @@
+framework module VueFluxReactive {
+  header "VueFluxReactive-Swift.h"
+  requires objc
+}

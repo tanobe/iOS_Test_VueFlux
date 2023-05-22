@@ -1,0 +1,47 @@
+{
+  "commitish" : "10.3.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "856d550c776f5580125a7f0ff851f41021904047ea4aa64935851fd3b7eb5d8f",
+      "name" : "ReactiveCocoa",
+      "container" : "ReactiveCocoa.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "924d871769cb11ed604e4bdfdc34a6da53f959d2d3d5fb6e6b7a198a69d88bda",
+      "name" : "ReactiveCocoa",
+      "container" : "ReactiveCocoa.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "2511fe837a0ef3eb44622b88922d45f42972e44f0af80f51e80b3ae5c3364810",
+      "name" : "ReactiveMapKit",
+      "container" : "ReactiveMapKit.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "efa78f0fef28d904414752b3139f30f90592d88cb7bf5046b6e821c9e96363e3",
+      "name" : "ReactiveMapKit",
+      "container" : "ReactiveMapKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "efa78f0fef28d904414752b3139f30f90592d88cb7bf5046b6e821c9e96363e3",
+      "name" : "ReactiveMapKit",
+      "container" : "ReactiveMapKit.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "2511fe837a0ef3eb44622b88922d45f42972e44f0af80f51e80b3ae5c3364810",
+      "name" : "ReactiveMapKit",
+      "container" : "ReactiveMapKit.xcframework",
+      "identifier" : "ios-arm64"
+    }
+  ]
+}

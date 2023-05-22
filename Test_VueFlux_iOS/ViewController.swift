@@ -1,19 +1,26 @@
-//
-//  ViewController.swift
-//  Test_VueFlux_iOS
-//
-//  Created by 田野 辺開 on 5/16/23.
-//
-
 import UIKit
+import ReactiveSwift
 
-class ViewController: UIViewController {
+class ViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        setupTab()
     }
 
+    func setupTab() {
+        let firstViewController = VueFluxViewController()
+        firstViewController.tabBarItem = UITabBarItem(title: "VueFlux", image: .none, tag: 0)
 
+        let secondViewController = FluxViewController()
+        secondViewController.tabBarItem = UITabBarItem(title: "Flux", image: .none, tag: 0)
+
+        let thirdViewController = TextFieldViewController()
+        thirdViewController.tabBarItem = UITabBarItem(title: "Test", image: .none, tag: 0)
+
+
+        viewControllers = [firstViewController, secondViewController, thirdViewController]
+    }
 }
 
