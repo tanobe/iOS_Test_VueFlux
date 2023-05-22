@@ -19,7 +19,6 @@
 		1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */; };
 		1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335542A138A3600FBAD36 /* AppDelegate.swift */; };
 		1CC335572A138A3600FBAD36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335562A138A3600FBAD36 /* SceneDelegate.swift */; };
-		1CC335592A138A3600FBAD36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335582A138A3600FBAD36 /* ViewController.swift */; };
 		1CC3355E2A138A3700FBAD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3355D2A138A3700FBAD36 /* Assets.xcassets */; };
 		1CC335612A138A3700FBAD36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3355F2A138A3700FBAD36 /* LaunchScreen.storyboard */; };
 		1CC3356C2A138A3700FBAD36 /* Test_VueFlux_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3356B2A138A3700FBAD36 /* Test_VueFlux_iOSTests.swift */; };
@@ -42,6 +41,10 @@
 		1CF18E442A1B3FE6008BE8C7 /* VueFluxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E402A1B3FE6008BE8C7 /* VueFluxState.swift */; };
 		1CF18E452A1B3FE6008BE8C7 /* VueFluxAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E412A1B3FE6008BE8C7 /* VueFluxAdapter.swift */; };
 		1CF18E462A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E422A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift */; };
+		1CF18E4C2A1B4057008BE8C7 /* VueFluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E482A1B4057008BE8C7 /* VueFluxViewController.swift */; };
+		1CF18E4D2A1B4057008BE8C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E492A1B4057008BE8C7 /* ViewController.swift */; };
+		1CF18E4E2A1B4057008BE8C7 /* FluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E4A2A1B4057008BE8C7 /* FluxViewController.swift */; };
+		1CF18E4F2A1B4057008BE8C7 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E4B2A1B4057008BE8C7 /* TextFieldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +78,6 @@
 		1CC335512A138A3600FBAD36 /* Test_VueFlux_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_VueFlux_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC335542A138A3600FBAD36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CC335562A138A3600FBAD36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CC335582A138A3600FBAD36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CC3355D2A138A3700FBAD36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CC335602A138A3700FBAD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CC335622A138A3700FBAD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +103,10 @@
 		1CF18E402A1B3FE6008BE8C7 /* VueFluxState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxState.swift; sourceTree = "<group>"; };
 		1CF18E412A1B3FE6008BE8C7 /* VueFluxAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxAdapter.swift; sourceTree = "<group>"; };
 		1CF18E422A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScopedDisposable+Utility.swift"; sourceTree = "<group>"; };
+		1CF18E482A1B4057008BE8C7 /* VueFluxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxViewController.swift; sourceTree = "<group>"; };
+		1CF18E492A1B4057008BE8C7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CF18E4A2A1B4057008BE8C7 /* FluxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxViewController.swift; sourceTree = "<group>"; };
+		1CF18E4B2A1B4057008BE8C7 /* TextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +191,7 @@
 			children = (
 				1CC335542A138A3600FBAD36 /* AppDelegate.swift */,
 				1CC335562A138A3600FBAD36 /* SceneDelegate.swift */,
-				1CC335582A138A3600FBAD36 /* ViewController.swift */,
+				1CF18E472A1B4057008BE8C7 /* View */,
 				1CF18E3D2A1B3F46008BE8C7 /* Repository */,
 				1CF18E3E2A1B3FE6008BE8C7 /* Store */,
 				1CF18E382A1B3F0C008BE8C7 /* Model */,
@@ -274,6 +280,17 @@
 				1CF18E422A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		1CF18E472A1B4057008BE8C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E482A1B4057008BE8C7 /* VueFluxViewController.swift */,
+				1CF18E492A1B4057008BE8C7 /* ViewController.swift */,
+				1CF18E4A2A1B4057008BE8C7 /* FluxViewController.swift */,
+				1CF18E4B2A1B4057008BE8C7 /* TextFieldViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,18 +423,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF18E4D2A1B4057008BE8C7 /* ViewController.swift in Sources */,
 				1C4CFB772A15C94C004499DE /* VueFluxViewController.swift in Sources */,
-				1CC335592A138A3600FBAD36 /* ViewController.swift in Sources */,
 				1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */,
 				1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */,
 				1CF18E282A1B3CDA008BE8C7 /* Store+Utility.swift in Sources */,
 				1CF18E362A1B3E67008BE8C7 /* CountUpResponse.swift in Sources */,
+				1CF18E4E2A1B4057008BE8C7 /* FluxViewController.swift in Sources */,
 				1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */,
 				1CF18E2B2A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift in Sources */,
 				1CF18E442A1B3FE6008BE8C7 /* VueFluxState.swift in Sources */,
 				1CF18E262A1B3CDA008BE8C7 /* Reactive+Utility.swift in Sources */,
 				1CF18E242A1B3CDA008BE8C7 /* Optional+Utility.swift in Sources */,
 				1CF18E272A1B3CDA008BE8C7 /* UIControl+Reactive.swift in Sources */,
+				1CF18E4C2A1B4057008BE8C7 /* VueFluxViewController.swift in Sources */,
 				1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */,
 				1CF18E452A1B3FE6008BE8C7 /* VueFluxAdapter.swift in Sources */,
 				1CF18E462A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */,
@@ -429,6 +448,7 @@
 				1CF18E2A2A1B3CDA008BE8C7 /* UIViewcontoroller.swift in Sources */,
 				1CF18E3B2A1B3F0C008BE8C7 /* CountUpRepository.swift in Sources */,
 				1CF18E252A1B3CDA008BE8C7 /* Renderable.swift in Sources */,
+				1CF18E4F2A1B4057008BE8C7 /* TextFieldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
