@@ -14,9 +14,6 @@
 		1C4CBDBE2A1B2C900044B6CA /* VueFlux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDB32A1B2C900044B6CA /* VueFlux.xcframework */; };
 		1C4CBDC02A1B2C900044B6CA /* VueFluxReactive.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDB42A1B2C900044B6CA /* VueFluxReactive.xcframework */; };
 		1C4CBDC22A1B2C900044B6CA /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDB52A1B2C900044B6CA /* ReactiveSwift.xcframework */; };
-		1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB742A15C64B004499DE /* FluxViewController.swift */; };
-		1C4CFB772A15C94C004499DE /* VueFluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB762A15C94C004499DE /* VueFluxViewController.swift */; };
-		1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */; };
 		1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335542A138A3600FBAD36 /* AppDelegate.swift */; };
 		1CC335572A138A3600FBAD36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335562A138A3600FBAD36 /* SceneDelegate.swift */; };
 		1CC3355E2A138A3700FBAD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3355D2A138A3700FBAD36 /* Assets.xcassets */; };
@@ -72,9 +69,6 @@
 		1C4CBDB32A1B2C900044B6CA /* VueFlux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VueFlux.xcframework; path = Carthage/Build/VueFlux.xcframework; sourceTree = "<group>"; };
 		1C4CBDB42A1B2C900044B6CA /* VueFluxReactive.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VueFluxReactive.xcframework; path = Carthage/Build/VueFluxReactive.xcframework; sourceTree = "<group>"; };
 		1C4CBDB52A1B2C900044B6CA /* ReactiveSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveSwift.xcframework; path = Carthage/Build/ReactiveSwift.xcframework; sourceTree = "<group>"; };
-		1C4CFB742A15C64B004499DE /* FluxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxViewController.swift; sourceTree = "<group>"; };
-		1C4CFB762A15C94C004499DE /* VueFluxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueFluxViewController.swift; sourceTree = "<group>"; };
-		1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 		1CC335512A138A3600FBAD36 /* Test_VueFlux_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_VueFlux_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC335542A138A3600FBAD36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CC335562A138A3600FBAD36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,16 +135,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C088D7A2A14B7D600B68B28 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1C4CFB762A15C94C004499DE /* VueFluxViewController.swift */,
-				1C4CFB742A15C64B004499DE /* FluxViewController.swift */,
-				1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		1C4CBDAE2A1B2C8F0044B6CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,7 +182,6 @@
 				1CF18E312A1B3E67008BE8C7 /* Response */,
 				1CF18E2C2A1B3D4D008BE8C7 /* Utility */,
 				1CF18E1B2A1B3CDA008BE8C7 /* Extension */,
-				1C088D7A2A14B7D600B68B28 /* View */,
 				1CC3355D2A138A3700FBAD36 /* Assets.xcassets */,
 				1CC3355F2A138A3700FBAD36 /* LaunchScreen.storyboard */,
 				1CC335622A138A3700FBAD36 /* Info.plist */,
@@ -424,20 +407,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF18E4D2A1B4057008BE8C7 /* ViewController.swift in Sources */,
-				1C4CFB772A15C94C004499DE /* VueFluxViewController.swift in Sources */,
 				1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */,
 				1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */,
 				1CF18E282A1B3CDA008BE8C7 /* Store+Utility.swift in Sources */,
 				1CF18E362A1B3E67008BE8C7 /* CountUpResponse.swift in Sources */,
 				1CF18E4E2A1B4057008BE8C7 /* FluxViewController.swift in Sources */,
-				1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */,
 				1CF18E2B2A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift in Sources */,
 				1CF18E442A1B3FE6008BE8C7 /* VueFluxState.swift in Sources */,
 				1CF18E262A1B3CDA008BE8C7 /* Reactive+Utility.swift in Sources */,
 				1CF18E242A1B3CDA008BE8C7 /* Optional+Utility.swift in Sources */,
 				1CF18E272A1B3CDA008BE8C7 /* UIControl+Reactive.swift in Sources */,
 				1CF18E4C2A1B4057008BE8C7 /* VueFluxViewController.swift in Sources */,
-				1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */,
 				1CF18E452A1B3FE6008BE8C7 /* VueFluxAdapter.swift in Sources */,
 				1CF18E462A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */,
 				1CF18E3C2A1B3F0C008BE8C7 /* CountUpDataModel.swift in Sources */,
