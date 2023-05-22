@@ -35,6 +35,7 @@
 		1CF18E2B2A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */; };
 		1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */; };
 		1CF18E302A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */; };
+		1CF18E362A1B3E67008BE8C7 /* CountUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PropertyProtocol+Utility.swift"; sourceTree = "<group>"; };
 		1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopedDisposable.swift; sourceTree = "<group>"; };
 		1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScopedDisposable+Utility.swift"; path = "Test_VueFlux_iOS/Store/ScopedDisposable+Utility.swift"; sourceTree = SOURCE_ROOT; };
+		1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				1CC335582A138A3600FBAD36 /* ViewController.swift */,
 				1CF18E2C2A1B3D4D008BE8C7 /* Utility */,
 				1CF18E1B2A1B3CDA008BE8C7 /* Extension */,
+				1CF18E312A1B3E67008BE8C7 /* Response */,
 				1C088D7A2A14B7D600B68B28 /* View */,
 				1CC3355D2A138A3700FBAD36 /* Assets.xcassets */,
 				1CC3355F2A138A3700FBAD36 /* LaunchScreen.storyboard */,
@@ -221,6 +224,14 @@
 				1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		1CF18E312A1B3E67008BE8C7 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +369,7 @@
 				1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */,
 				1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */,
 				1CF18E282A1B3CDA008BE8C7 /* Store+Utility.swift in Sources */,
+				1CF18E362A1B3E67008BE8C7 /* CountUpResponse.swift in Sources */,
 				1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */,
 				1CF18E2B2A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift in Sources */,
 				1CF18E262A1B3CDA008BE8C7 /* Reactive+Utility.swift in Sources */,
