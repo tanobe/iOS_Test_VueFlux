@@ -1,0 +1,19 @@
+{
+  "commitish" : "f123ec5caaef785d056dd979a8e75954b9ddfe66",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "63c0211e4c7bd87cc4a42adccab5ef1b87f1865336073335a55cf59ddde4bbc8",
+      "name" : "Carbon",
+      "container" : "Carbon.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "bf45b5a76bda0358056fb22f26e499d9813187df1b2d48af4ac3ae35bb0aeba8",
+      "name" : "Carbon",
+      "container" : "Carbon.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

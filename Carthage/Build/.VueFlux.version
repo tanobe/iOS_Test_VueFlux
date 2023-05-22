@@ -1,0 +1,33 @@
+{
+  "commitish" : "1.6.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "87da462d3871ccb76d51d9084c32b415fc44add658932bf8f21f0681c59477b3",
+      "name" : "VueFlux",
+      "container" : "VueFlux.xcframework",
+      "identifier" : "ios-x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "2962eee382063dbf4f270014c356558775e6f76f1c012e9fec5f258877f7dbbd",
+      "name" : "VueFlux",
+      "container" : "VueFlux.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "5247accd5ca87448e2f7f3737101f594b03176012bc0acf95dd6c5bb43d24179",
+      "name" : "VueFluxReactive",
+      "container" : "VueFluxReactive.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)",
+      "hash" : "acdec71db12bcbf80e35f1fe52d5ae8e3ec27257f575e5104185b82cd2d8f1f7",
+      "name" : "VueFluxReactive",
+      "container" : "VueFluxReactive.xcframework",
+      "identifier" : "ios-x86_64-simulator"
+    }
+  ]
+}
