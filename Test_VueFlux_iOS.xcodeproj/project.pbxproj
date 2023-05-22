@@ -33,6 +33,7 @@
 		1CF18E292A1B3CDA008BE8C7 /* Refreshable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E212A1B3CDA008BE8C7 /* Refreshable+Utility.swift */; };
 		1CF18E2A2A1B3CDA008BE8C7 /* UIViewcontoroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E222A1B3CDA008BE8C7 /* UIViewcontoroller.swift */; };
 		1CF18E2B2A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */; };
+		1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		1CF18E212A1B3CDA008BE8C7 /* Refreshable+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Refreshable+Utility.swift"; sourceTree = "<group>"; };
 		1CF18E222A1B3CDA008BE8C7 /* UIViewcontoroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewcontoroller.swift; sourceTree = "<group>"; };
 		1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PropertyProtocol+Utility.swift"; sourceTree = "<group>"; };
+		1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopedDisposable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				1CC335542A138A3600FBAD36 /* AppDelegate.swift */,
 				1CC335562A138A3600FBAD36 /* SceneDelegate.swift */,
 				1CC335582A138A3600FBAD36 /* ViewController.swift */,
+				1CF18E2C2A1B3D4D008BE8C7 /* Utility */,
 				1CF18E1B2A1B3CDA008BE8C7 /* Extension */,
 				1C088D7A2A14B7D600B68B28 /* View */,
 				1CC3355D2A138A3700FBAD36 /* Assets.xcassets */,
@@ -207,6 +210,14 @@
 				1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		1CF18E2C2A1B3D4D008BE8C7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +352,7 @@
 			files = (
 				1C4CFB772A15C94C004499DE /* VueFluxViewController.swift in Sources */,
 				1CC335592A138A3600FBAD36 /* ViewController.swift in Sources */,
+				1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */,
 				1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */,
 				1CF18E282A1B3CDA008BE8C7 /* Store+Utility.swift in Sources */,
 				1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */,
