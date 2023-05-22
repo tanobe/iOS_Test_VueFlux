@@ -34,6 +34,7 @@
 		1CF18E2A2A1B3CDA008BE8C7 /* UIViewcontoroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E222A1B3CDA008BE8C7 /* UIViewcontoroller.swift */; };
 		1CF18E2B2A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */; };
 		1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */; };
+		1CF18E302A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		1CF18E222A1B3CDA008BE8C7 /* UIViewcontoroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewcontoroller.swift; sourceTree = "<group>"; };
 		1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PropertyProtocol+Utility.swift"; sourceTree = "<group>"; };
 		1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopedDisposable.swift; sourceTree = "<group>"; };
+		1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScopedDisposable+Utility.swift"; path = "Test_VueFlux_iOS/Store/ScopedDisposable+Utility.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */,
+				1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				1CF18E272A1B3CDA008BE8C7 /* UIControl+Reactive.swift in Sources */,
 				1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */,
 				1CC335572A138A3600FBAD36 /* SceneDelegate.swift in Sources */,
+				1CF18E302A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */,
 				1CF18E292A1B3CDA008BE8C7 /* Refreshable+Utility.swift in Sources */,
 				1CF18E2A2A1B3CDA008BE8C7 /* UIViewcontoroller.swift in Sources */,
 				1CF18E252A1B3CDA008BE8C7 /* Renderable.swift in Sources */,
