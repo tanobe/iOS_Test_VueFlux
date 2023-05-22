@@ -38,6 +38,10 @@
 		1CF18E362A1B3E67008BE8C7 /* CountUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */; };
 		1CF18E3B2A1B3F0C008BE8C7 /* CountUpRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E392A1B3F0C008BE8C7 /* CountUpRepository.swift */; };
 		1CF18E3C2A1B3F0C008BE8C7 /* CountUpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E3A2A1B3F0C008BE8C7 /* CountUpDataModel.swift */; };
+		1CF18E432A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E3F2A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift */; };
+		1CF18E442A1B3FE6008BE8C7 /* VueFluxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E402A1B3FE6008BE8C7 /* VueFluxState.swift */; };
+		1CF18E452A1B3FE6008BE8C7 /* VueFluxAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E412A1B3FE6008BE8C7 /* VueFluxAdapter.swift */; };
+		1CF18E462A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E422A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +97,10 @@
 		1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpResponse.swift; sourceTree = "<group>"; };
 		1CF18E392A1B3F0C008BE8C7 /* CountUpRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpRepository.swift; sourceTree = "<group>"; };
 		1CF18E3A2A1B3F0C008BE8C7 /* CountUpDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpDataModel.swift; sourceTree = "<group>"; };
+		1CF18E3F2A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxAdapterProtocol.swift; sourceTree = "<group>"; };
+		1CF18E402A1B3FE6008BE8C7 /* VueFluxState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxState.swift; sourceTree = "<group>"; };
+		1CF18E412A1B3FE6008BE8C7 /* VueFluxAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxAdapter.swift; sourceTree = "<group>"; };
+		1CF18E422A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScopedDisposable+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +187,7 @@
 				1CC335562A138A3600FBAD36 /* SceneDelegate.swift */,
 				1CC335582A138A3600FBAD36 /* ViewController.swift */,
 				1CF18E3D2A1B3F46008BE8C7 /* Repository */,
+				1CF18E3E2A1B3FE6008BE8C7 /* Store */,
 				1CF18E382A1B3F0C008BE8C7 /* Model */,
 				1CF18E312A1B3E67008BE8C7 /* Response */,
 				1CF18E2C2A1B3D4D008BE8C7 /* Utility */,
@@ -254,6 +263,17 @@
 				1CF18E392A1B3F0C008BE8C7 /* CountUpRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		1CF18E3E2A1B3FE6008BE8C7 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E3F2A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift */,
+				1CF18E402A1B3FE6008BE8C7 /* VueFluxState.swift */,
+				1CF18E412A1B3FE6008BE8C7 /* VueFluxAdapter.swift */,
+				1CF18E422A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,11 +414,15 @@
 				1CF18E362A1B3E67008BE8C7 /* CountUpResponse.swift in Sources */,
 				1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */,
 				1CF18E2B2A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift in Sources */,
+				1CF18E442A1B3FE6008BE8C7 /* VueFluxState.swift in Sources */,
 				1CF18E262A1B3CDA008BE8C7 /* Reactive+Utility.swift in Sources */,
 				1CF18E242A1B3CDA008BE8C7 /* Optional+Utility.swift in Sources */,
 				1CF18E272A1B3CDA008BE8C7 /* UIControl+Reactive.swift in Sources */,
 				1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */,
+				1CF18E452A1B3FE6008BE8C7 /* VueFluxAdapter.swift in Sources */,
+				1CF18E462A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */,
 				1CF18E3C2A1B3F0C008BE8C7 /* CountUpDataModel.swift in Sources */,
+				1CF18E432A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift in Sources */,
 				1CC335572A138A3600FBAD36 /* SceneDelegate.swift in Sources */,
 				1CF18E302A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */,
 				1CF18E292A1B3CDA008BE8C7 /* Refreshable+Utility.swift in Sources */,
