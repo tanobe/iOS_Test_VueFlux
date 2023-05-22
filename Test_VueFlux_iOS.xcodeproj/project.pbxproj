@@ -36,6 +36,8 @@
 		1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */; };
 		1CF18E302A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */; };
 		1CF18E362A1B3E67008BE8C7 /* CountUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */; };
+		1CF18E3B2A1B3F0C008BE8C7 /* CountUpRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E392A1B3F0C008BE8C7 /* CountUpRepository.swift */; };
+		1CF18E3C2A1B3F0C008BE8C7 /* CountUpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E3A2A1B3F0C008BE8C7 /* CountUpDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopedDisposable.swift; sourceTree = "<group>"; };
 		1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScopedDisposable+Utility.swift"; path = "Test_VueFlux_iOS/Store/ScopedDisposable+Utility.swift"; sourceTree = SOURCE_ROOT; };
 		1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpResponse.swift; sourceTree = "<group>"; };
+		1CF18E392A1B3F0C008BE8C7 /* CountUpRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpRepository.swift; sourceTree = "<group>"; };
+		1CF18E3A2A1B3F0C008BE8C7 /* CountUpDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,9 +178,11 @@
 				1CC335542A138A3600FBAD36 /* AppDelegate.swift */,
 				1CC335562A138A3600FBAD36 /* SceneDelegate.swift */,
 				1CC335582A138A3600FBAD36 /* ViewController.swift */,
+				1CF18E3D2A1B3F46008BE8C7 /* Repository */,
+				1CF18E382A1B3F0C008BE8C7 /* Model */,
+				1CF18E312A1B3E67008BE8C7 /* Response */,
 				1CF18E2C2A1B3D4D008BE8C7 /* Utility */,
 				1CF18E1B2A1B3CDA008BE8C7 /* Extension */,
-				1CF18E312A1B3E67008BE8C7 /* Response */,
 				1C088D7A2A14B7D600B68B28 /* View */,
 				1CC3355D2A138A3700FBAD36 /* Assets.xcassets */,
 				1CC3355F2A138A3700FBAD36 /* LaunchScreen.storyboard */,
@@ -232,6 +238,22 @@
 				1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */,
 			);
 			path = Response;
+			sourceTree = "<group>";
+		};
+		1CF18E382A1B3F0C008BE8C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E3A2A1B3F0C008BE8C7 /* CountUpDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CF18E3D2A1B3F46008BE8C7 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E392A1B3F0C008BE8C7 /* CountUpRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,10 +398,12 @@
 				1CF18E242A1B3CDA008BE8C7 /* Optional+Utility.swift in Sources */,
 				1CF18E272A1B3CDA008BE8C7 /* UIControl+Reactive.swift in Sources */,
 				1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */,
+				1CF18E3C2A1B3F0C008BE8C7 /* CountUpDataModel.swift in Sources */,
 				1CC335572A138A3600FBAD36 /* SceneDelegate.swift in Sources */,
 				1CF18E302A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */,
 				1CF18E292A1B3CDA008BE8C7 /* Refreshable+Utility.swift in Sources */,
 				1CF18E2A2A1B3CDA008BE8C7 /* UIViewcontoroller.swift in Sources */,
+				1CF18E3B2A1B3F0C008BE8C7 /* CountUpRepository.swift in Sources */,
 				1CF18E252A1B3CDA008BE8C7 /* Renderable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
