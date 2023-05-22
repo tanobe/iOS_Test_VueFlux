@@ -13,7 +13,7 @@ class ViewController: UITabBarController {
         let firstViewController = VueFluxViewController()
         firstViewController.tabBarItem = UITabBarItem(title: "VueFlux", image: .none, tag: 0)
 
-        let secondViewController = FluxViewController()
+        let secondViewController = FluxViewController(number: 0)
         secondViewController.tabBarItem = UITabBarItem(title: "Flux", image: .none, tag: 0)
 
         let thirdViewController = TextFieldViewController()

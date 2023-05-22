@@ -20,7 +20,6 @@ final class FluxViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.boldSystemFont(ofSize: 30.0)
         label.textColor = .black
-        label.text = "0"
         return label
     }()
 
@@ -35,11 +34,16 @@ final class FluxViewController: UIViewController {
         return button
     }()
 
-    init() {
+    private var number: Int
+    var sample: SignalProducer<Int, SomeError> = .init(value: 0)
+
+
+    init(number: Int) {
+        self.number = number
         super.init(nibName: nil, bundle: nil)
     }
 
-    required init?(coder _: NSCoder) {
+    required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
@@ -50,6 +54,36 @@ final class FluxViewController: UIViewController {
         view.addSubview(centerLabel)
         view.addSubview(numberLabel)
         view.addSubview(incrementButton)
+
+        // Bind
+        incrementButton.reactive.tap
+            .take(duringLifetimeOf: self)
+            .observeValues { [weak self] in
+                let result = self?.incrementNumber(number: 1)
+                self?.sample = result!
+                self!.sample.startWithResult { value in
+                    switch value {
+                    case .success(let result):
+                        print(result)
+                    case .failure:
+                        break
+                    }
+                }
+            }
+
+        reactive.viewWillAppear
+            .take(duringLifetimeOf: self)
+            .observeValues {
+                print("viewWillAppear")
+            }
+
+        // ほんとはbindするが一旦代入
+        numberLabel.text = String(0)
+    }
+
+    func incrementNumber(number: Int) -> SignalProducer<Int, SomeError> {
+        let count = number + 1
+        return SignalProducer<Int, SomeError>(value: 2)
     }
 
     override func viewWillLayoutSubviews() {
@@ -65,3 +99,6 @@ final class FluxViewController: UIViewController {
         ])
     }
 }
+
+
+
