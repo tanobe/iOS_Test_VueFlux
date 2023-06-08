@@ -1,7 +1,7 @@
 import Foundation
 import ReactiveSwift
 
-protocol CountUpRepositoryProtocol {
+protocol CountUpRepositoryProtocol: AnyObject {
     func refresh() -> SignalProducer<CountUpResponse, SomeError>
     func incrementNumber(number: Int, testArgument: String) -> SignalProducer<CountUpResponse, SomeError>
 }
@@ -15,14 +15,14 @@ extension CountUpRepositoryProtocol {
     }
 }
 
-class CountUpRepository: CountUpRepositoryProtocol {
+final class CountUpRepository: CountUpRepositoryProtocol {
 //    private let api: hoge
 //    init(api: hoge) {
 //        self.api = api
 //    }
 
     func refresh() -> SignalProducer<CountUpResponse, SomeError> {
-        return SignalProducer.init(value: CountUpResponse.init(number: 0))
+        return SignalProducer(value: CountUpResponse.init(number: 0))
             .mapError(SomeError.init)
     }
 

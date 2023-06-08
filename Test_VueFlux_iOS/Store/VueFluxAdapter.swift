@@ -41,12 +41,11 @@ final class VueFluxAdapter: VueFluxAdapterProtocol {
             }
     }
 
-    func incrementNumber(
-        number: Int
-    ) {
+    func incrementNumber() {
         let actions = store.actions
         actions.dispatch(action: .loading)
-        refreshDisposable.serial = dependency.repository.incrementNumber(number: number)
+        let number = Int(store.computed.dataModel.value.number) ?? 0
+        refreshDisposable.serial = dependency.repository.incrementNumber(number: number, testArgument: "adapterTest")
             .startWithResult { result in
                 actions.dispatch(action: .loaded(result))
             }

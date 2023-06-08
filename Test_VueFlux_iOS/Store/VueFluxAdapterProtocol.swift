@@ -1,7 +1,7 @@
 import ReactiveSwift
 
-public protocol VueFluxAdapterProtocol: AnyObject {
+/// Refreshableに準拠させることで、refresh()が呼べるようにある
+public protocol VueFluxAdapterProtocol: Refreshable {
     var dataModel: Property<CountUpDataModel> { get }
-    func incrementNumber(number: Int)
-    func refresh()
+    func incrementNumber()
 }

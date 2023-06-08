@@ -75,18 +75,12 @@ final class VueFluxViewController: UIViewController {
         // Binding
         incrementButton.reactive.tap
             .take(duringLifetimeOf: self)
-            .observeValues { [weak self] in
+            .observeValues { [weak self]  _ in
                 guard let me = self else { return }
-                me.number = Int(me.adapter.dataModel.map { $0.number }.value) ?? 0
-                me.adapter.incrementNumber(number: me.number)
+                me.adapter.incrementNumber()
             }
 
-        reactive.viewWillAppear
-            .take(duringLifetimeOf: self)
-            .observeValues { [weak self] in
-                guard let me = self else { return }
-                me.adapter.refresh()
-            }
+        adapter.refresh <~ reactive.viewWillAppear
 
         numberLabel.reactive.text <~ adapter.dataModel.map { $0.number }
     }
