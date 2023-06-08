@@ -14,17 +14,34 @@
 		1C4CBDBE2A1B2C900044B6CA /* VueFlux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDB32A1B2C900044B6CA /* VueFlux.xcframework */; };
 		1C4CBDC02A1B2C900044B6CA /* VueFluxReactive.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDB42A1B2C900044B6CA /* VueFluxReactive.xcframework */; };
 		1C4CBDC22A1B2C900044B6CA /* ReactiveSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBDB52A1B2C900044B6CA /* ReactiveSwift.xcframework */; };
-		1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB742A15C64B004499DE /* FluxViewController.swift */; };
-		1C4CFB772A15C94C004499DE /* VueFluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB762A15C94C004499DE /* VueFluxViewController.swift */; };
-		1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */; };
 		1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335542A138A3600FBAD36 /* AppDelegate.swift */; };
 		1CC335572A138A3600FBAD36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335562A138A3600FBAD36 /* SceneDelegate.swift */; };
-		1CC335592A138A3600FBAD36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335582A138A3600FBAD36 /* ViewController.swift */; };
 		1CC3355E2A138A3700FBAD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3355D2A138A3700FBAD36 /* Assets.xcassets */; };
 		1CC335612A138A3700FBAD36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3355F2A138A3700FBAD36 /* LaunchScreen.storyboard */; };
 		1CC3356C2A138A3700FBAD36 /* Test_VueFlux_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3356B2A138A3700FBAD36 /* Test_VueFlux_iOSTests.swift */; };
 		1CC335762A138A3700FBAD36 /* Test_VueFlux_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335752A138A3700FBAD36 /* Test_VueFlux_iOSUITests.swift */; };
 		1CC335782A138A3700FBAD36 /* Test_VueFlux_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC335772A138A3700FBAD36 /* Test_VueFlux_iOSUITestsLaunchTests.swift */; };
+		1CF18E242A1B3CDA008BE8C7 /* Optional+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E1C2A1B3CDA008BE8C7 /* Optional+Utility.swift */; };
+		1CF18E252A1B3CDA008BE8C7 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E1D2A1B3CDA008BE8C7 /* Renderable.swift */; };
+		1CF18E262A1B3CDA008BE8C7 /* Reactive+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E1E2A1B3CDA008BE8C7 /* Reactive+Utility.swift */; };
+		1CF18E272A1B3CDA008BE8C7 /* UIControl+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E1F2A1B3CDA008BE8C7 /* UIControl+Reactive.swift */; };
+		1CF18E282A1B3CDA008BE8C7 /* Store+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E202A1B3CDA008BE8C7 /* Store+Utility.swift */; };
+		1CF18E292A1B3CDA008BE8C7 /* Refreshable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E212A1B3CDA008BE8C7 /* Refreshable+Utility.swift */; };
+		1CF18E2A2A1B3CDA008BE8C7 /* UIViewcontoroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E222A1B3CDA008BE8C7 /* UIViewcontoroller.swift */; };
+		1CF18E2B2A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */; };
+		1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */; };
+		1CF18E302A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */; };
+		1CF18E362A1B3E67008BE8C7 /* CountUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */; };
+		1CF18E3B2A1B3F0C008BE8C7 /* CountUpRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E392A1B3F0C008BE8C7 /* CountUpRepository.swift */; };
+		1CF18E3C2A1B3F0C008BE8C7 /* CountUpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E3A2A1B3F0C008BE8C7 /* CountUpDataModel.swift */; };
+		1CF18E432A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E3F2A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift */; };
+		1CF18E442A1B3FE6008BE8C7 /* VueFluxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E402A1B3FE6008BE8C7 /* VueFluxState.swift */; };
+		1CF18E452A1B3FE6008BE8C7 /* VueFluxAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E412A1B3FE6008BE8C7 /* VueFluxAdapter.swift */; };
+		1CF18E462A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E422A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift */; };
+		1CF18E4C2A1B4057008BE8C7 /* VueFluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E482A1B4057008BE8C7 /* VueFluxViewController.swift */; };
+		1CF18E4D2A1B4057008BE8C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E492A1B4057008BE8C7 /* ViewController.swift */; };
+		1CF18E4E2A1B4057008BE8C7 /* FluxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E4A2A1B4057008BE8C7 /* FluxViewController.swift */; };
+		1CF18E4F2A1B4057008BE8C7 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18E4B2A1B4057008BE8C7 /* TextFieldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +69,9 @@
 		1C4CBDB32A1B2C900044B6CA /* VueFlux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VueFlux.xcframework; path = Carthage/Build/VueFlux.xcframework; sourceTree = "<group>"; };
 		1C4CBDB42A1B2C900044B6CA /* VueFluxReactive.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VueFluxReactive.xcframework; path = Carthage/Build/VueFluxReactive.xcframework; sourceTree = "<group>"; };
 		1C4CBDB52A1B2C900044B6CA /* ReactiveSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveSwift.xcframework; path = Carthage/Build/ReactiveSwift.xcframework; sourceTree = "<group>"; };
-		1C4CFB742A15C64B004499DE /* FluxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxViewController.swift; sourceTree = "<group>"; };
-		1C4CFB762A15C94C004499DE /* VueFluxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueFluxViewController.swift; sourceTree = "<group>"; };
-		1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 		1CC335512A138A3600FBAD36 /* Test_VueFlux_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_VueFlux_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC335542A138A3600FBAD36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CC335562A138A3600FBAD36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CC335582A138A3600FBAD36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CC3355D2A138A3700FBAD36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CC335602A138A3700FBAD36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CC335622A138A3700FBAD36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +80,27 @@
 		1CC335712A138A3700FBAD36 /* Test_VueFlux_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_VueFlux_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC335752A138A3700FBAD36 /* Test_VueFlux_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_VueFlux_iOSUITests.swift; sourceTree = "<group>"; };
 		1CC335772A138A3700FBAD36 /* Test_VueFlux_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_VueFlux_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1CF18E1C2A1B3CDA008BE8C7 /* Optional+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Utility.swift"; sourceTree = "<group>"; };
+		1CF18E1D2A1B3CDA008BE8C7 /* Renderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
+		1CF18E1E2A1B3CDA008BE8C7 /* Reactive+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reactive+Utility.swift"; sourceTree = "<group>"; };
+		1CF18E1F2A1B3CDA008BE8C7 /* UIControl+Reactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Reactive.swift"; sourceTree = "<group>"; };
+		1CF18E202A1B3CDA008BE8C7 /* Store+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+Utility.swift"; sourceTree = "<group>"; };
+		1CF18E212A1B3CDA008BE8C7 /* Refreshable+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Refreshable+Utility.swift"; sourceTree = "<group>"; };
+		1CF18E222A1B3CDA008BE8C7 /* UIViewcontoroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewcontoroller.swift; sourceTree = "<group>"; };
+		1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PropertyProtocol+Utility.swift"; sourceTree = "<group>"; };
+		1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopedDisposable.swift; sourceTree = "<group>"; };
+		1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScopedDisposable+Utility.swift"; path = "Test_VueFlux_iOS/Store/ScopedDisposable+Utility.swift"; sourceTree = SOURCE_ROOT; };
+		1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpResponse.swift; sourceTree = "<group>"; };
+		1CF18E392A1B3F0C008BE8C7 /* CountUpRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpRepository.swift; sourceTree = "<group>"; };
+		1CF18E3A2A1B3F0C008BE8C7 /* CountUpDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountUpDataModel.swift; sourceTree = "<group>"; };
+		1CF18E3F2A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxAdapterProtocol.swift; sourceTree = "<group>"; };
+		1CF18E402A1B3FE6008BE8C7 /* VueFluxState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxState.swift; sourceTree = "<group>"; };
+		1CF18E412A1B3FE6008BE8C7 /* VueFluxAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxAdapter.swift; sourceTree = "<group>"; };
+		1CF18E422A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScopedDisposable+Utility.swift"; sourceTree = "<group>"; };
+		1CF18E482A1B4057008BE8C7 /* VueFluxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VueFluxViewController.swift; sourceTree = "<group>"; };
+		1CF18E492A1B4057008BE8C7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CF18E4A2A1B4057008BE8C7 /* FluxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluxViewController.swift; sourceTree = "<group>"; };
+		1CF18E4B2A1B4057008BE8C7 /* TextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,16 +135,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C088D7A2A14B7D600B68B28 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1C4CFB762A15C94C004499DE /* VueFluxViewController.swift */,
-				1C4CFB742A15C64B004499DE /* FluxViewController.swift */,
-				1C4CFB7C2A1700C5004499DE /* TextFieldViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		1C4CBDAE2A1B2C8F0044B6CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,8 +175,13 @@
 			children = (
 				1CC335542A138A3600FBAD36 /* AppDelegate.swift */,
 				1CC335562A138A3600FBAD36 /* SceneDelegate.swift */,
-				1CC335582A138A3600FBAD36 /* ViewController.swift */,
-				1C088D7A2A14B7D600B68B28 /* View */,
+				1CF18E472A1B4057008BE8C7 /* View */,
+				1CF18E3D2A1B3F46008BE8C7 /* Repository */,
+				1CF18E3E2A1B3FE6008BE8C7 /* Store */,
+				1CF18E382A1B3F0C008BE8C7 /* Model */,
+				1CF18E312A1B3E67008BE8C7 /* Response */,
+				1CF18E2C2A1B3D4D008BE8C7 /* Utility */,
+				1CF18E1B2A1B3CDA008BE8C7 /* Extension */,
 				1CC3355D2A138A3700FBAD36 /* Assets.xcassets */,
 				1CC3355F2A138A3700FBAD36 /* LaunchScreen.storyboard */,
 				1CC335622A138A3700FBAD36 /* Info.plist */,
@@ -175,6 +204,76 @@
 				1CC335772A138A3700FBAD36 /* Test_VueFlux_iOSUITestsLaunchTests.swift */,
 			);
 			path = Test_VueFlux_iOSUITests;
+			sourceTree = "<group>";
+		};
+		1CF18E1B2A1B3CDA008BE8C7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E1C2A1B3CDA008BE8C7 /* Optional+Utility.swift */,
+				1CF18E1D2A1B3CDA008BE8C7 /* Renderable.swift */,
+				1CF18E1E2A1B3CDA008BE8C7 /* Reactive+Utility.swift */,
+				1CF18E1F2A1B3CDA008BE8C7 /* UIControl+Reactive.swift */,
+				1CF18E202A1B3CDA008BE8C7 /* Store+Utility.swift */,
+				1CF18E212A1B3CDA008BE8C7 /* Refreshable+Utility.swift */,
+				1CF18E222A1B3CDA008BE8C7 /* UIViewcontoroller.swift */,
+				1CF18E232A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1CF18E2C2A1B3D4D008BE8C7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E2D2A1B3D4D008BE8C7 /* ScopedDisposable.swift */,
+				1CF18E2F2A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1CF18E312A1B3E67008BE8C7 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E332A1B3E67008BE8C7 /* CountUpResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		1CF18E382A1B3F0C008BE8C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E3A2A1B3F0C008BE8C7 /* CountUpDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CF18E3D2A1B3F46008BE8C7 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E392A1B3F0C008BE8C7 /* CountUpRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1CF18E3E2A1B3FE6008BE8C7 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E3F2A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift */,
+				1CF18E402A1B3FE6008BE8C7 /* VueFluxState.swift */,
+				1CF18E412A1B3FE6008BE8C7 /* VueFluxAdapter.swift */,
+				1CF18E422A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		1CF18E472A1B4057008BE8C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18E482A1B4057008BE8C7 /* VueFluxViewController.swift */,
+				1CF18E492A1B4057008BE8C7 /* ViewController.swift */,
+				1CF18E4A2A1B4057008BE8C7 /* FluxViewController.swift */,
+				1CF18E4B2A1B4057008BE8C7 /* TextFieldViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,12 +406,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C4CFB772A15C94C004499DE /* VueFluxViewController.swift in Sources */,
-				1CC335592A138A3600FBAD36 /* ViewController.swift in Sources */,
+				1CF18E4D2A1B4057008BE8C7 /* ViewController.swift in Sources */,
+				1CF18E2E2A1B3D4D008BE8C7 /* ScopedDisposable.swift in Sources */,
 				1CC335552A138A3600FBAD36 /* AppDelegate.swift in Sources */,
-				1C4CFB752A15C64B004499DE /* FluxViewController.swift in Sources */,
-				1C4CFB7D2A1700C5004499DE /* TextFieldViewController.swift in Sources */,
+				1CF18E282A1B3CDA008BE8C7 /* Store+Utility.swift in Sources */,
+				1CF18E362A1B3E67008BE8C7 /* CountUpResponse.swift in Sources */,
+				1CF18E4E2A1B4057008BE8C7 /* FluxViewController.swift in Sources */,
+				1CF18E2B2A1B3CDA008BE8C7 /* PropertyProtocol+Utility.swift in Sources */,
+				1CF18E442A1B3FE6008BE8C7 /* VueFluxState.swift in Sources */,
+				1CF18E262A1B3CDA008BE8C7 /* Reactive+Utility.swift in Sources */,
+				1CF18E242A1B3CDA008BE8C7 /* Optional+Utility.swift in Sources */,
+				1CF18E272A1B3CDA008BE8C7 /* UIControl+Reactive.swift in Sources */,
+				1CF18E4C2A1B4057008BE8C7 /* VueFluxViewController.swift in Sources */,
+				1CF18E452A1B3FE6008BE8C7 /* VueFluxAdapter.swift in Sources */,
+				1CF18E462A1B3FE6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */,
+				1CF18E3C2A1B3F0C008BE8C7 /* CountUpDataModel.swift in Sources */,
+				1CF18E432A1B3FE6008BE8C7 /* VueFluxAdapterProtocol.swift in Sources */,
 				1CC335572A138A3600FBAD36 /* SceneDelegate.swift in Sources */,
+				1CF18E302A1B3DF6008BE8C7 /* ScopedDisposable+Utility.swift in Sources */,
+				1CF18E292A1B3CDA008BE8C7 /* Refreshable+Utility.swift in Sources */,
+				1CF18E2A2A1B3CDA008BE8C7 /* UIViewcontoroller.swift in Sources */,
+				1CF18E3B2A1B3F0C008BE8C7 /* CountUpRepository.swift in Sources */,
+				1CF18E252A1B3CDA008BE8C7 /* Renderable.swift in Sources */,
+				1CF18E4F2A1B4057008BE8C7 /* TextFieldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

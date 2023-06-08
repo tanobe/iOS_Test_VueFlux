@@ -1,6 +1,25 @@
+import Carbon
+import ReactiveCocoa
+import ReactiveSwift
 import UIKit
+import VueFlux
 
 final class VueFluxViewController: UIViewController {
+    public struct Dependency {
+        public var notification: NotificationCenter
+
+        public init(
+            notification: NotificationCenter
+        ) {
+            self.notification = notification
+        }
+
+        public static var `default`: Dependency {
+            Dependency(
+                notification: NotificationCenter.default
+            )
+        }
+    }
 
     private lazy var centerLabel: UILabel = {
         let label = UILabel()
@@ -16,7 +35,6 @@ final class VueFluxViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.boldSystemFont(ofSize: 30.0)
         label.textColor = UIColor.white
-        label.text = "0"
         return label
     }()
 
@@ -31,8 +49,14 @@ final class VueFluxViewController: UIViewController {
         return button
     }()
 
-    init() {
+    private let adapter: VueFluxAdapterProtocol
+    private let dependency: Dependency
+    private var number: Int
 
+    init(adapter: VueFluxAdapterProtocol, dependency: Dependency, number: Int) {
+        self.adapter = adapter
+        self.dependency = dependency
+        self.number = number
         super.init(nibName: nil, bundle: nil)
     }
 
@@ -46,6 +70,19 @@ final class VueFluxViewController: UIViewController {
         view.addSubview(centerLabel)
         view.addSubview(numberLabel)
         view.addSubview(incrementButton)
+        print("\(numberLabel.reactive.text) dd")
+
+        // Binding
+        incrementButton.reactive.tap
+            .take(duringLifetimeOf: self)
+            .observeValues { [weak self]  _ in
+                guard let me = self else { return }
+                me.adapter.incrementNumber()
+            }
+
+        adapter.refresh <~ reactive.viewWillAppear
+
+        numberLabel.reactive.text <~ adapter.dataModel.map { $0.number }
     }
 
     override func viewWillLayoutSubviews() {
@@ -61,4 +98,3 @@ final class VueFluxViewController: UIViewController {
         ])
     }
 }
-
